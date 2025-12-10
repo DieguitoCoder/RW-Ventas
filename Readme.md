@@ -56,7 +56,7 @@ PostgreSQL setup (local)
 -- Connect as postgres superuser, then run:
 CREATE DATABASE "Riwi_Ventas";
 CREATE USER rwuser WITH ENCRYPTED PASSWORD 'change_me_strong_password';
-GRANT ALL PRIVILEGES ON DATABASE "Riwi_Ventas" TO rwuser;
+GRANT ALL PRIVILEGES ON DATABASE "RWventas" TO rwuser;
 ```
 
 3. If using the notebook's variables, update them to match your DB user/password/host/port. Example environment variables approach (recommended below).
@@ -160,3 +160,4 @@ YoY Growth % = DIVIDE([Total Sales] - [Sales LY], [Sales LY])
 
 
 ## -- Created by : Dieguito Teran 
+
