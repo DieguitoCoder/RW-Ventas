@@ -1,0 +1,9 @@
+pandas
+numpy
+sqlalchemy
+psycopg2-binary
+matplotlib
+seaborn
+python-dotenv
+unicodedata2
+datetime
